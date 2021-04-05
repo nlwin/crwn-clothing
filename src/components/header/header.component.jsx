@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 
 import { auth } from "../../firebase/firebase.utils";
-import { ReactComponent as Logo } from "../../assets/crown.svg";
 import CartIcon from "../card-icon/card-icon.component";
 import CardDropdown from "../card-dropdown/card-dropdown.component";
+
+import { ReactComponent as Logo } from "../../assets/crown.svg";
+
 import "./header.styles.scss";
 
 const Header = ({ currentUser, hidden }) => (
